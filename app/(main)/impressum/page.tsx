@@ -18,16 +18,16 @@ export const metadata: Metadata = {
 
 export default function ImpressumPage() {
   return (
-    <div className="mx-auto max-w-3xl px-5 py-20 md:px-8 md:py-28">
-      <span className="plate-badge text-ice-deep">Rechtliches</span>
-      <h1 className="mt-5 font-display text-4xl font-semibold tracking-tight text-ink">
+    <div className="mx-auto max-w-3xl px-5 pb-20 pt-32 md:px-8 md:pb-28 md:pt-36">
+      <p className="font-mono text-[0.66rem] uppercase tracking-[0.24em] text-v2-ice/70">Rechtliches</p>
+      <h1 className="mt-6 font-v2-display text-4xl font-extrabold tracking-tighter text-v2-text sm:text-5xl">
         Impressum
       </h1>
-      <p className="mt-3 text-sm text-ink/55">Angaben gemäß § 5 TMG</p>
+      <p className="mt-4 text-sm text-v2-muted">Angaben gemäß § 5 TMG</p>
 
-      <div className="prose prose-neutral mt-10 max-w-none space-y-8 text-[0.98rem] leading-relaxed text-ink/85">
+      <div className="mt-12 max-w-none space-y-9 text-[0.95rem] leading-relaxed text-v2-muted">
         <section>
-          <h2 className="font-display text-lg font-semibold text-ink">Diensteanbieter</h2>
+          <h2 className="font-v2-display text-lg font-bold tracking-tight text-v2-text">Diensteanbieter</h2>
           <p className="mt-2">
             {business.name} {business.legalSuffix}
             <br />
@@ -38,7 +38,7 @@ export default function ImpressumPage() {
         </section>
 
         <section>
-          <h2 className="font-display text-lg font-semibold text-ink">Vertretungsberechtigte</h2>
+          <h2 className="font-v2-display text-lg font-bold tracking-tight text-v2-text">Vertretungsberechtigte</h2>
           <p className="mt-2">
             Persönlich haftende Gesellschafterin: Regler Verwaltungs GmbH
             <br />
@@ -48,7 +48,7 @@ export default function ImpressumPage() {
         </section>
 
         <section>
-          <h2 className="font-display text-lg font-semibold text-ink">Kontakt</h2>
+          <h2 className="font-v2-display text-lg font-bold tracking-tight text-v2-text">Kontakt</h2>
           <p className="mt-2">
             Telefon: {business.phoneDisplay}
             <br />
@@ -57,7 +57,7 @@ export default function ImpressumPage() {
         </section>
 
         <section>
-          <h2 className="font-display text-lg font-semibold text-ink">Registereintrag</h2>
+          <h2 className="font-v2-display text-lg font-bold tracking-tight text-v2-text">Registereintrag</h2>
           <p className="mt-2">
             Rechtsform: {business.legalForm}
             <br />
@@ -69,7 +69,7 @@ export default function ImpressumPage() {
         </section>
 
         <section>
-          <h2 className="font-display text-lg font-semibold text-ink">Zuständige Handwerkskammer</h2>
+          <h2 className="font-v2-display text-lg font-bold tracking-tight text-v2-text">Zuständige Handwerkskammer</h2>
           <p className="mt-2">
             Handwerkskammer für München und Oberbayern
             <br />
@@ -78,7 +78,7 @@ export default function ImpressumPage() {
         </section>
 
         <section>
-          <h2 className="font-display text-lg font-semibold text-ink">
+          <h2 className="font-v2-display text-lg font-bold tracking-tight text-v2-text">
             Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
           </h2>
           <p className="mt-2">
@@ -89,14 +89,14 @@ export default function ImpressumPage() {
         </section>
 
         <section>
-          <h2 className="font-display text-lg font-semibold text-ink">EU-Streitschlichtung</h2>
+          <h2 className="font-v2-display text-lg font-bold tracking-tight text-v2-text">EU-Streitschlichtung</h2>
           <p className="mt-2">
             Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:{" "}
             <a
               href="https://ec.europa.eu/consumers/odr/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-ice-deep underline"
+              className="text-v2-ice underline underline-offset-4"
             >
               https://ec.europa.eu/consumers/odr/
             </a>
@@ -107,7 +107,7 @@ export default function ImpressumPage() {
         </section>
 
         <section>
-          <h2 className="font-display text-lg font-semibold text-ink">Haftung für Inhalte</h2>
+          <h2 className="font-v2-display text-lg font-bold tracking-tight text-v2-text">Haftung für Inhalte</h2>
           <p className="mt-2">
             Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach
             den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter

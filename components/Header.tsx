@@ -7,11 +7,11 @@ import { Phone, Menu, X } from "lucide-react";
 import { business } from "@/data/business";
 
 const navLinks = [
-  { href: "/#leistungen", label: "Leistungen" },
-  { href: "/#auszeichnung", label: "Auszeichnung" },
-  { href: "/#ueber-uns", label: "Über uns" },
-  { href: "/#galerie", label: "Galerie" },
-  { href: "/#kontakt", label: "Kontakt" },
+  { href: "/v1#leistungen", label: "Leistungen" },
+  { href: "/v1#auszeichnung", label: "Auszeichnung" },
+  { href: "/v1#ueber-uns", label: "Über uns" },
+  { href: "/v1#galerie", label: "Galerie" },
+  { href: "/v1#kontakt", label: "Kontakt" },
 ];
 
 export default function Header() {
@@ -32,7 +32,7 @@ export default function Header() {
       }`}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3 md:px-8">
-        <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
+        <Link href="/v1" className="flex items-center gap-3" onClick={() => setOpen(false)}>
           <div className="flex h-10 w-10 items-center justify-center rounded-sm bg-white md:h-11 md:w-11">
             <Image
               src="/images/logo.png"

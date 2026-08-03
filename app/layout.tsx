@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { business, award } from "@/data/business";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import VersionSwitcher from "@/components/VersionSwitcher";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://regler-kaeltetechnik.vercel.app"),
@@ -71,14 +70,13 @@ export default function RootLayout({
 
   return (
     <html lang="de" className="h-full">
-      <body className="min-h-full flex flex-col bg-frost text-ink">
+      <body className="min-h-full">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        {children}
+        <VersionSwitcher />
       </body>
     </html>
   );

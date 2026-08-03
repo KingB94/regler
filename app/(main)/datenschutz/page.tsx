@@ -18,15 +18,15 @@ export const metadata: Metadata = {
 
 export default function DatenschutzPage() {
   return (
-    <div className="mx-auto max-w-3xl px-5 py-20 md:px-8 md:py-28">
-      <span className="plate-badge text-ice-deep">Rechtliches</span>
-      <h1 className="mt-5 font-display text-4xl font-semibold tracking-tight text-ink">
+    <div className="mx-auto max-w-3xl px-5 pb-20 pt-32 md:px-8 md:pb-28 md:pt-36">
+      <p className="font-mono text-[0.66rem] uppercase tracking-[0.24em] text-v2-ice/70">Rechtliches</p>
+      <h1 className="mt-6 font-v2-display text-4xl font-extrabold tracking-tighter text-v2-text sm:text-5xl">
         Datenschutzerklärung
       </h1>
 
-      <div className="prose prose-neutral mt-10 max-w-none space-y-8 text-[0.98rem] leading-relaxed text-ink/85">
+      <div className="mt-12 max-w-none space-y-9 text-[0.95rem] leading-relaxed text-v2-muted">
         <section>
-          <h2 className="font-display text-lg font-semibold text-ink">1. Verantwortlicher</h2>
+          <h2 className="font-v2-display text-lg font-bold tracking-tight text-v2-text">1. Verantwortlicher</h2>
           <p className="mt-2">
             {business.name} {business.legalSuffix}
             <br />
@@ -39,7 +39,7 @@ export default function DatenschutzPage() {
         </section>
 
         <section>
-          <h2 className="font-display text-lg font-semibold text-ink">2. Hosting</h2>
+          <h2 className="font-v2-display text-lg font-bold tracking-tight text-v2-text">2. Hosting</h2>
           <p className="mt-2">
             Diese Website wird bei Vercel Inc. gehostet. Dabei können technisch bedingt
             Server-Logdaten (z. B. IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene
@@ -50,7 +50,7 @@ export default function DatenschutzPage() {
         </section>
 
         <section>
-          <h2 className="font-display text-lg font-semibold text-ink">3. Schriftarten</h2>
+          <h2 className="font-v2-display text-lg font-bold tracking-tight text-v2-text">3. Schriftarten</h2>
           <p className="mt-2">
             Alle Schriftarten sind lokal auf dem Server dieser Website eingebunden
             (Self-Hosting). Es findet keine Verbindung zu Google Fonts oder anderen
@@ -60,7 +60,7 @@ export default function DatenschutzPage() {
         </section>
 
         <section>
-          <h2 className="font-display text-lg font-semibold text-ink">4. Google Maps (Kartenausschnitt)</h2>
+          <h2 className="font-v2-display text-lg font-bold tracking-tight text-v2-text">4. Google Maps (Kartenausschnitt)</h2>
           <p className="mt-2">
             Im Kontaktbereich bieten wir die Möglichkeit, einen Kartenausschnitt von Google
             Maps zu laden, um die Anfahrt zu unserem Betrieb zu erleichtern. Die Karte wird
@@ -72,7 +72,7 @@ export default function DatenschutzPage() {
               href="https://policies.google.com/privacy"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-ice-deep underline"
+              className="text-v2-ice underline underline-offset-4"
             >
               policies.google.com/privacy
             </a>
@@ -81,7 +81,7 @@ export default function DatenschutzPage() {
         </section>
 
         <section>
-          <h2 className="font-display text-lg font-semibold text-ink">5. Kontaktformular</h2>
+          <h2 className="font-v2-display text-lg font-bold tracking-tight text-v2-text">5. Kontaktformular</h2>
           <p className="mt-2">
             Unser Kontaktformular öffnet Ihr eigenes E-Mail-Programm mit einer
             vorausgefüllten Nachricht (sogenannter „mailto&rdquo;-Link). Die eingegebenen
@@ -94,7 +94,7 @@ export default function DatenschutzPage() {
         </section>
 
         <section>
-          <h2 className="font-display text-lg font-semibold text-ink">6. Cookies &amp; Tracking</h2>
+          <h2 className="font-v2-display text-lg font-bold tracking-tight text-v2-text">6. Cookies &amp; Tracking</h2>
           <p className="mt-2">
             Diese Website verwendet aktuell keine Analyse-, Marketing- oder Tracking-Cookies
             und keine vergleichbaren Dienste (z. B. Google Analytics). Es werden nur
@@ -105,7 +105,7 @@ export default function DatenschutzPage() {
         </section>
 
         <section>
-          <h2 className="font-display text-lg font-semibold text-ink">7. Ihre Rechte</h2>
+          <h2 className="font-v2-display text-lg font-bold tracking-tight text-v2-text">7. Ihre Rechte</h2>
           <p className="mt-2">
             Sie haben jederzeit das Recht auf Auskunft, Berichtigung, Löschung oder
             Einschränkung der Verarbeitung Ihrer personenbezogenen Daten sowie ein Recht auf

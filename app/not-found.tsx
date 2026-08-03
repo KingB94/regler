@@ -4,7 +4,7 @@ import Button from "@/components/Button";
 
 export default function NotFound() {
   return (
-    <div className="relative flex min-h-[70vh] flex-col items-center justify-center overflow-hidden bg-navy px-5 text-center text-frost">
+    <div className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-navy px-5 text-center text-frost">
       <IceCrystal
         className="pointer-events-none absolute left-1/2 top-1/2 w-[70%] max-w-[520px] -translate-x-1/2 -translate-y-1/2 text-navy-raised"
         strokeWidth={3}

@@ -29,11 +29,11 @@ export default function Footer() {
           <div>
             <p className="font-mono text-xs uppercase tracking-[0.1em] text-frost/45">Navigation</p>
             <nav className="mt-4 flex flex-col gap-2.5 text-sm">
-              <Link href="/#leistungen" className="text-frost/75 hover:text-ice">Leistungen</Link>
-              <Link href="/#auszeichnung" className="text-frost/75 hover:text-ice">Auszeichnung</Link>
-              <Link href="/#ueber-uns" className="text-frost/75 hover:text-ice">Über uns</Link>
-              <Link href="/#galerie" className="text-frost/75 hover:text-ice">Galerie</Link>
-              <Link href="/#kontakt" className="text-frost/75 hover:text-ice">Kontakt</Link>
+              <Link href="/v1#leistungen" className="text-frost/75 hover:text-ice">Leistungen</Link>
+              <Link href="/v1#auszeichnung" className="text-frost/75 hover:text-ice">Auszeichnung</Link>
+              <Link href="/v1#ueber-uns" className="text-frost/75 hover:text-ice">Über uns</Link>
+              <Link href="/v1#galerie" className="text-frost/75 hover:text-ice">Galerie</Link>
+              <Link href="/v1#kontakt" className="text-frost/75 hover:text-ice">Kontakt</Link>
             </nav>
           </div>
 
